@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/imc/stley.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="return calcular(event)">
+      <label for="">Digitar seu peso</label>
+      <input
+        type="text"
+        name="peso"
+        id="peso"
+        placeholder="Digitar seu peso em kg"
+        required
+      />
+      <label for="">Digitar sua altura</label>
+      <input
+        type="text"
+        name="altura"
+        id="altura"
+        placeholder="Digitar sua  altura em metros"
+        required
+      />
+      
+
+      <input type="submit" value="Calcular" />
+    </form>
+
+    <div  id="resultado"></div>
+
+
+    
+
+    <script src="/imc/js/imc.js"></script>
+  </body>
+</html>
